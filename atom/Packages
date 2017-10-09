@@ -7,3 +7,4 @@ auto-update-packages
 autocomplete-paths
 highlight-selected
 minimap
+set-syntax
