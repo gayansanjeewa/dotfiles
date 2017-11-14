@@ -8,3 +8,4 @@ autocomplete-paths
 highlight-selected
 minimap
 set-syntax
+sort-lines
