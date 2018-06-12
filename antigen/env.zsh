@@ -12,6 +12,7 @@ osx
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-completions src
 zsh-users/zsh-autosuggestions
+paulirish/git-open
 EOBUNDLES
 
 ### Applying Antigen config
