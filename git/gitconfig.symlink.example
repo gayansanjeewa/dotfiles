@@ -12,7 +12,7 @@
 [alias]
         # Branch name
         branch-name = !git rev-parse --abbrev-ref HEAD
-        
+
         wtf     = !$ZSH/bin/git-wtf
         count   = !git shortlog -sn
         prune = fetch --prune
@@ -20,9 +20,9 @@
         stash-all = stash save --include-untracked
         glog = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
         prune-local-branches = !git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
-        
+
         gpul = !git pull --prune --rebase
-        
+
 [color]
         diff = auto
         status = auto
@@ -73,3 +73,6 @@
 	prune = true
 [status]
         showUntrackedFiles = all
+[pager]
+       diff = diff-so-fancy | less --tabs=1,5 -RFX
+       show = diff-so-fancy | less --tabs=1,5 -RFX

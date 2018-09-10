@@ -7,7 +7,6 @@ tap 'silinternational/tap'
 
 brew 'coreutils'
 brew 'dnsmasq'
-brew 'thefuck'
 brew 'wget'
 brew 'zsh'
 brew 'zsh-completions'
@@ -23,6 +22,10 @@ brew 'telnet'
 brew 'jq'
 brew 'ecs-deploy'
 brew 'tree'
+brew 'bat'                          # alternative to cat command
+brew 'prettyping'                   # wrapper around ping
+brew 'fzf'                          # alternative to CTRL+R
+brew 'diff-so-fancy'                # alternative to git diff
 
 cask 'firefox'
 cask 'hipchat'

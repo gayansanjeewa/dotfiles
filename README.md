@@ -12,6 +12,16 @@ If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read my post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
+Install
+-------
+
+On a sparkling fresh installation of macOS:
+
+```bash
+sudo softwareupdate -i -a
+xcode-select --install
+```
+
 ## topical
 
 Everything's built around topic areas. If you're adding a new area to your
