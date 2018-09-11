@@ -26,6 +26,7 @@ brew 'bat'                          # alternative to cat command
 brew 'prettyping'                   # wrapper around ping
 brew 'fzf'                          # alternative to CTRL+R
 brew 'diff-so-fancy'                # alternative to git diff
+brew 'git'
 
 cask 'firefox'
 cask 'hipchat'
