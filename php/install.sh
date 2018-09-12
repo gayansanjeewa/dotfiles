@@ -2,7 +2,7 @@
 cd "$(dirname "$0")"
 
 # Install php
-curl -s https://php-osx.liip.ch/install.sh | bash -s 7.1
+curl -s https://php-osx.liip.ch/install.sh | bash -s 7.2
 
 # Set temporary php path
 export PATH="/usr/local/php5/bin:$PATH"

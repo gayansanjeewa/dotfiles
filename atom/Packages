@@ -1,13 +1,9 @@
-atom-autocomplete-php
 atom-beautify
-atom-material-syntax
-atom-material-ui
-atom-yarn
-auto-update-packages
-autocomplete-paths
 highlight-selected
 minimap
 set-syntax
-sort-lines
 language-groovy
-split-diff
+atom-material-ui
+atom-material-syntax
+autocomplete-paths
+go-plus
