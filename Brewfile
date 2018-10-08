@@ -28,6 +28,7 @@ brew 'fzf'                          # alternative to CTRL+R
 brew 'diff-so-fancy'                # alternative to git diff
 brew 'git'
 brew 'go'
+brew 'ffmpeg'
 
 cask 'firefox'
 cask 'hipchat'
