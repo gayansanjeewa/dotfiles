@@ -28,7 +28,6 @@ brew 'diff-so-fancy'                # alternative to git diff
 brew 'git'
 brew 'go'
 brew 'ffmpeg'
-brew 'gnupg'
 
 cask 'firefox'
 cask 'hipchat'
@@ -45,3 +44,5 @@ cask 'atom'
 cask 'turbo-boost-switcher'
 cask 'jetbrains-toolbox'
 cask 'spectacle'
+cask 'slack'
+cask 'gpg-suite'
