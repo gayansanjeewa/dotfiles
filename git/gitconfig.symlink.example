@@ -22,6 +22,8 @@
         prune-local-branches = !git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
 
         gpul = !git pull --prune --rebase
+        fco = !git fetch && git checkout
+        delete-untracked-files = !git clean -fd
 
 [color]
         diff = auto

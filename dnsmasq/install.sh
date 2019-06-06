@@ -1,6 +1,5 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-
 sudo ln -sfn $(pwd)/dnsmasq.conf $(brew --prefix)/etc/dnsmasq.conf
 
 sudo brew services restart dnsmasq
