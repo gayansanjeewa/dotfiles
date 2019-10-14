@@ -2,12 +2,12 @@
 cd "$(dirname "$0")"
 
 # Install php
-curl -s https://php-osx.liip.ch/install.sh | bash -s force 7.2
+# curl -s https://php-osx.liip.ch/install.sh | bash -s force 7.3
 
 # Set temporary php path
-export PATH="/usr/local/php5/bin:$PATH"
+# export PATH="/usr/local/php5/bin:$PATH"
 
-sudo ln -sfn $(pwd)/php.ini /usr/local/php5/php.d/99-liip-developer.ini
+# sudo ln -sfn $(pwd)/php.ini /usr/local/php5/php.d/99-liip-developer.ini
 
 # Install composer
 php -r "readfile('https://getcomposer.org/installer');" > composer-setup.php
