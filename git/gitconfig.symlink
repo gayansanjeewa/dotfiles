@@ -4,17 +4,18 @@
 [hub]
         protocol = https
 [alias]
-        branch-name = !git rev-parse --abbrev-ref HEAD
-        wtf     = !$ZSH/bin/git-wtf
-        count   = !git shortlog -sn
-        prune = fetch --prune
-        undo = reset --soft HEAD^
-        stash-all = stash save --include-untracked
-        glog = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-        prune-local-branches = !git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
-        gpul = !git pull --prune --rebase
-        fco = !git fetch && git checkout
-        delete-untracked-files = !git clean -fd
+        branch-name             = !git rev-parse --abbrev-ref HEAD
+        wtf                     = !$ZSH/bin/git-wtf
+        new-branch              = !$ZSH/bin/git-new-branch
+        count                   = !git shortlog -sn
+        prune                   = fetch --prune
+        undo                    = reset --soft HEAD^
+        stash-all               = stash save --include-untracked
+        glog                    = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+        prune-local-branches    = !$ZSH/bin/git-prune-local-branches
+        gpul                    = !git pull --prune --rebase
+        fco                     = !git fetch && git checkout
+        delete-untracked-files  = !git clean -fd
 [color]
         diff = auto
         status = auto
@@ -36,6 +37,7 @@
         default = simple
 [commit]
         template = ~/.gitmessage.txt
+        gpgsign = true
 [mergetool]
         keepBackup = false
 [difftool]
