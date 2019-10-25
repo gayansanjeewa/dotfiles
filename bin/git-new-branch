@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# A very slightly quicker way to create a new branch
+#
+# $1 - The name of the branch
+#
+# Examples
+#
+#   git-new-branch feature/next-best-thing
+#
+
+git checkout -b $1
